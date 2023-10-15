@@ -58,3 +58,34 @@ input {
   background-color: #005299;
 }
   
+@media (max-width: 420px) {
+  body {
+    background-color: pink;
+  }
+
+  .app {
+    width: 70%;
+  }
+
+  .inverif {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .screen p {
+    font-size: 50px;
+  }
+
+  input {
+    width: 50vw;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #checkButton {
+    width: 100%;
+  }
+
+}
