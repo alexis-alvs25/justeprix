@@ -65,6 +65,7 @@ input {
 
   .app {
     width: 70%;
+    height: fit-content;
   }
 
   .inverif {
@@ -77,8 +78,9 @@ input {
   }
 
   input {
-    width: 50vw;
+    width: 90%;
     font-size: 25px;
+    margin: 0;
     margin-bottom: 50px;
     margin-top: 20px;
     text-align: center;
