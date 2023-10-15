@@ -59,8 +59,14 @@ input {
 }
   
 @media (max-width: 420px) {
+
+  html {
+    overflow-y: hidden;
+  }
+
   body {
     background-color: pink;
+    position: relative;
   }
 
   .app {
