@@ -55,7 +55,7 @@ function checkGuess() {
         }
     }
     else {
-        screen.textContent = 'ERREUR...'
+        screen.textContent = "T'es con ?"
         guessInput.value = ''; // Effacer le contenu de l'input
     }
 };
