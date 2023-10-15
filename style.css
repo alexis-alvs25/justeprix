@@ -1,0 +1,60 @@
+body {
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+.app {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.screen p {
+  font-size: 80px;
+}
+
+.inverif {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 30vw;
+  height: 10vh;
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Pixelify Sans', sans-serif;
+  color: rgb(178, 83, 62);
+}
+
+#checkButton {
+  width: 20%;
+  padding: 20px;
+  border: none;
+  background-color: rgb(154, 232, 52);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 20px;
+}
+
+#checkButton:hover {
+  background-color: #005299;
+}
+  
