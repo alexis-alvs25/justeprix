@@ -36,8 +36,7 @@ guessInput.addEventListener('keydown', (event) => {
 });
 
 
-
-// Ajoutez un gestionnaire d'événement au bouton de vérification
+// Check l'input de l'utilisateur
 function checkGuess() {
     const userGuess = parseInt(guessInput.value);
     if (userGuess >= 1 && userGuess <= 100) {  
